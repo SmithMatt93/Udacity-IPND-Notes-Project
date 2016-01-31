@@ -1,0 +1,65 @@
+ <h1>Matthew Smith's Stage 0 Notes</h1>
+ <h3><b>Thinking Like a Programmer</b></h3>
+ There are 5 main types of thinking that are frequently used by programmers:
+ <ol>
+   <li><em>Procedural</em><br>
+   Involves creating clear and concise instructions for a computer to follow.</li>
+   <li><em>Abstract</em><br>
+   Involves finding ways to improve programming efficiency by helping avoid<br>
+   unnecessary repetition of work.</li>
+   <li><em>Systems</em><br>
+   Involves breaking down large problems into smaller problems and recognizing<br>
+   how those individual pieces fit together.</li>
+   <li><em>Technological Empathy</em><br>
+   Involves understanding how computers work and what they are good<br>
+   and bad at and using that knowledge to your advantage while coding.
+   <li><em>Debugging</em><br>
+   Involves using a system to make identifying and fixing bugs quick<br>
+   and relatively easy.</li>
+ </ol>
+ <h3><b>The Basics of the Web and HTML</b></h3>
+ <dl>
+   <dt><em>The World Wide Web</em></dt>
+   <dd>A network of servers and other computers on which<br>
+    HTML documents and files are hosted and accessed.</dd>
+   <dt><em>Components of the WWW</em></dt>
+   <dd>-Users who use computers to access and create content on the WWW.<br>
+    -Computers which run programs (browsers) that display pages and files found<br>
+    on the web.<br>
+    -The Internet which is the largest network of computers in the world.<br>
+    -Servers which are computers that host the files that make up the web.<br>
+    -HTTP which is the protocol that is used to communicate between these<br>
+    components. <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">This Wikipedia
+    entry</a> explains HyperText Transfer Protocol in<br>
+    extreme depth.</dd>
+   <dt><em>Webpages</em></dt>
+   <dd> Text documents, written in HTML, which are read, interpreted, and displayed<br>
+    by web browsers.</dd>
+   <dt><em>HTML</em></dt>
+   <dd>HyperText Markup Language is a programming language which is the basis of<br>
+    almost every webpage on the WWW. HTML documents consist of:<br>
+    -Text content (what you see)<br>
+    -Markup (how it looks)<br>
+    -References to other documents/files (images, video, audio, other pages, etc.<br>
+    (<a href="https://www.youtube.com/watch?v=fS7w-TXinPE">This video</a> is an excellent 
+    introduction to HTML.)</dd>
+    <dt><em>Components of HTML</em></dt>
+    <dd> -Tags: The text instructions that tell a browser how to display content.<br>
+    They are always contained within angled braces. They're paired together with<br>
+    an opening and closing tag, except for void tags.<br>
+    -Elements: A unit made up by a tag and the content it affects or a set of<br>
+    tags and the content between them.<br></dd>
+    <dt><em>Inline vs Block Tags</em></dt>
+    <dd>The two types of tags within HTML are inline and block tags. Block tags form<br>
+    a box around the contents wihin them.</dd>
+ </dl>
+ <h3><b>General Concepts</b></h3>
+ <ul style="list-style-type:square">
+   <li> <em>Coding</em>: The action of writing text instructions in a language that computers can<br>
+   understand and follow.<br></li>
+   <li> <em>Correct <a href="http://www.merriam-webster.com/dictionary/syntax">Syntax</a>
+   </em>: Computers are "stupid" because they require code to be written<br>
+   in a very exact way to be able to understand it. Humans are considered "smart," by<br>
+   contrast, because they are capable of compensating for and overcoming typos.</li>
+ </ul>
+
