@@ -2,19 +2,19 @@
 <html>
 <head>
 	<title>Intro to Programming Overview</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="master-style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div id="header">
 		<a href="https://www.udacity.com/nanodegree"><img src="images/compassroselight.png" alt="Compass Logo" width="100" height="100" title="Udacity Nanodegrees"/></a>
-		<h1 id="top">Intro to Programming Overview</h1>
+		<h1 id="top">Intro to Programming Overview</h1>s
 		<p>Notes from Lessons 1-3</p>
 	</div>
 	
 	<div id ="toc">
-		<h2 id="toc-title">Table of Contents</h2>
-		<ul id="toc-list">
+		<h2>Table of Contents</h2>
+		<ul>
 			<li>
 				<a href="#lesson-title-1">Lesson 1: The Basics of the Web and HTML</a>
 			</li>
@@ -28,38 +28,38 @@
 	</div>
 
 	<div class="all-lessons"><!--contains all lessons-->
-		<div class="lesson-row" id="row-1"><!--contains first row of three lessons-->
+		<div class="lesson-row" id="row-1"><!--contains first row of three lessons, will come into play when another lesson's notes are added-->
 <!--LESSON 1-->
-			<div class="lesson-container" id="lesson-1"><!--contains an individual lesson-->
+			<div class="lesson-column" id="lesson-1"><!--contains an individual lesson-->
 				<h2 class="lesson-title" id="lesson-title-1">Lesson 1: The Basics of the Web and HTML</h2>
 				<div class="concept-container">
 					<div class="concept-title">
 						Thinking Like a Programmer
 					</div>
 					<div class="concept-explanation">
+						<p>There are 5 main types of thinking that are frequently used by programmers:</p>
 						<ol>
-							<b>There are 5 main types of thinking that are frequently used by programmers:</b>
-				        	<li>
-				        		<em>Procedural</em></br>
+							<li>
+				        		<em>Procedural</em><br>
 				        		Involves creating clear and concise instructions for a computer to follow.
 				    		</li>
 				        	<li>
-				        		<em>Abstract:</em></br>
+				        		<em>Abstract:</em><br>
 						        Involves finding ways to improve programming efficiency by helping avoid
 						        unnecessary repetition of work.
 					    	</li>
 					        <li>
-					        	<em>Systems</em></br>
-						        Involvesaking down large problems into smaller problems and recognizing
+					        	<em>Systems</em><br>
+						        Involves breaking down large problems into smaller problems and recognizing
 						        how those individual pieces fit together.
 						    </li>
 					        <li>
-					        	<em>Technological Empathy</em></br>
-						        Involves understanding how computers work and what they are good
-						        and bad at and using that knowledge to your advantage while coding.
+					        	<em>Technological Empathy</em><br>
+						        Involves understanding how computers work, and what they are good
+						        and bad at, and using that knowledge to your advantage while coding.
 						    </li>
 					        <li>
-					        	<em>Debugging</em></br>s
+					        	<em>Debugging</em><br>
 						        Involves using a system to make identifying and fixing bugs quick
 						        and relatively easy.
 						    </li>
@@ -82,27 +82,24 @@
 						Components of the WWW
 					</div>
 					<div class="concept-explanation">
-						<ul>
-							<li class="unordered-list-item">
-								<b>Users</b> who use computers to access and create content on the WWW.
-							</li>
-							<li class="unordered-list-item">
-								<b>Computers</b> which run programs browsers) that display pages and files found
-		         				on the web.
-		         			</li>
-							<li class="unordered-list-item">
-								<b>The Internet</b> which is the largest network of computers in the world.
-							</li>
-							<li class="unordered-list-item">
-								<b>Servers</b> which are computers that host the files that make up the web.
-							</li>
-							<li class="unordered-list-item">
-								<b>HTTP</b> which is the protocol that is used to communicate between these
+						<dl>
+							<dt>Users:</dt>
+							<dd>People who use computers to access and create content on the WWW.</dd>
+							<dt>Computers:</dt>
+							<dd>Programmable machines that run programs browsers) that display pages and files found
+		         				on the web.</dd>
+							<dt>The Internet:</dt>
+							<dd>The largest network of computers in the world.</dd>
+							<dt>Servers:</dt>
+							<dd>Computers that host the files that make up the web.</dd>
+							<dt>HTTP:</dt>
+							<dd>The protocol that is used to communicate between these
 				        		components. 
 				        		<a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">
-				        			This Wikipedia entry</a> explains HyperText Transfer Protocol in extreme depth.
-				        	</li>
-						</ul>
+				        			This Wikipedia entry
+				        		</a> explains HyperText Transfer Protocol in extreme depth.
+				        	</dd>
+						</dl>
 					</div>
 				</div>
 				<div class="concept-container">
@@ -121,23 +118,18 @@
 						HTML
 					</div>
 					<div class="concept-explanation">
-						<p>
-							HyperText Markup Language is a programming language which is the basis of
-					        almost every webpage on the WWW. HTML documents consist of:
-					        <ul>
-					        	<li>
-					        		Text content (what you see)
-					        	</li>
-					        	<li>
-					        		Markup (how it looks)
-					        	</li>
-					        	<li>
-					        		References to other documents/files (images, video, audio, other pages, etc.
-					        	</li>
-					      	</ul>
-							(<a href="https://www.youtube.com/watch?v=fS7w-TXinPE">This video</a> is an excellent 
-					        introduction to HTML.)
-					    </p>
+						<p><a href="https://www.youtube.com/watch?v=fS7w-TXinPE">HyperText Markup Language</a> is a programming language which is the basis of almost every webpage on the WWW. HTML documents consist of:</p>
+						<ul>
+							<li>
+				        		Text content (what you see)
+				        	</li>
+				        	<li>
+				        		Markup (how it looks)
+				        	</li>
+				        	<li>
+				        		References to other documents/files (images, video, audio, other pages, etc.
+				        	</li>
+				      	</ul>
 					</div>
 				</div>
 				<div class="concept-container">
@@ -145,15 +137,13 @@
 						Components of HTML
 					</div>
 					<div class="concept-explanation">
-						<p>
-							<dl>
-								<dt>Tags:</dt>
-								<dd>The text instructions that tell a browser how to display content. They are always contained within angledces. They're paired together with
-			          			an opening and closing tag, except for void tags.</dd>
-								<dt>Elements:</dt>
-								<dd>Units made up of a tag and the content it affects, or an opening and closing tag and the content between them.</dd>
-							</dl>
-						</p>
+						<dl>
+							<dt>Tags:</dt>
+							<dd>The text instructions that tell a browser how to display content. They are always contained within angled braces. They're paired together with
+		          			an opening and closing tag, except for void tags.</dd>
+							<dt>Elements:</dt>
+							<dd>Units made up of a tag and the content it affects, or an opening and closing tag and the content between them.</dd>
+						</dl>
 					</div>
 				</div>
 				<div class="concept-container">
@@ -163,7 +153,7 @@
 					<div class="concept-explanation">
 						<p>
 							The two types of tags within HTML are inline and block tags. Block tags form
-		          			a box around the contents wihin them.
+		          			a box around the contents within them, and start on a new line. Inline elements flow in between surrounding text.
 						</p>
 					</div>
 				</div>
@@ -192,7 +182,7 @@
 				</div>
 			</div>
 <!--LESSON 2-->
-			<div class="lesson-container" id="lesson-2">
+			<div class="lesson-column" id="lesson-2">
 				<h2 class="lesson-title" id="lesson-title-2">Lesson 2: Creating a Structured Document with HTML</h2>
 				<div class="concept-container">
 					<div class="concept-title">
@@ -200,7 +190,7 @@
 					</div>
 					<div class="concept-explanation">
 						<p>
-							The programs used to write and edit the code for webpages. They are similar to
+							The programs used to write and edit code for webpages. They are similar to
 		          			word processors like Microsoft Word, but lack the formatting functions. Good
 		          			text editors have many automatic and predictive functions that make programming
 		          			easier. They can often be used to write code in multiple languages.
@@ -212,13 +202,11 @@
 						HTML vs CSS vs JavaScript
 					</div>
 					<div class="concept-explanation">
-						<p>
-							<ul>
-								<li><b>HTML</b> is the language used to define the structure and content of a webpage.</li>
-								<li><b>CSS</b> is the language used to define the style of the webpage.</li>
-								<li><b>JavaScript</b> is the language used to define the interactive components of a webpage.</li>
-							</ul>
-						</p>
+						<ul>
+							<li><b>HTML</b> is the language used to define the structure and content of a webpage.</li>
+							<li><b>CSS</b> is the language used to define the style of the webpage.</li>
+							<li><b>JavaScript</b> is the language used to define the interactive components of a webpage.</li>
+						</ul>
 					</div>
 				</div>
 				<div class="concept-container">
@@ -283,9 +271,22 @@
 						</p>
 					</div>
 				</div>
+				<div class="concept-container">
+					<div class="concept-title">
+						Good Coding Style
+					</div>
+					<div class="concept-explanation">
+						<ul>
+							<li>Increases the efficiency with which one can code.</li>
+							<li>Makes code easier for others to read and understand.</li>
+							<li>Is more conducive to standardization within teams.</li>
+							<li>Is more visually appealing and impressive to potential employers and clients.</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 <!--LESSON 3-->
-			<div class="lesson-container" id="lesson-3">
+			<div class="lesson-column" id="lesson-3">
 				<h2 class="lesson-title" id="lesson-title-3">Lesson 3: Adding CSS Style and HTML Structure</h2>
 				<div class="concept-container">
 					<div class="concept-title">
@@ -293,7 +294,7 @@
 					</div>
 					<div class="concept-explanation">
 						<p>
-							One of the main benefits of CSS is that it allows programmers to  avoid completing the same task repeatedly by employinig selectors. This makes it much faster and easier make changes to related elements on your page quickly and vastly reduces the chance of errors  in your code.
+							One of the main benefits of CSS is that it allows programmers to  avoid completing the same task repeatedly by employinig selectors. This makes it much faster and easier make changes to related elements on your page and vastly reduces the chance of errors in your code.
 						</p>
 					</div>
 				</div>
@@ -302,135 +303,159 @@
 						Selectors
 					</div>
 					<div class="concept-explanation">
-						<p>
-							Units of CSS code that define what elements of the page a particular style will be applied to. There are many different types of selectors, and they can be used in almost any combinations with each other. Major selector types:
-							<dl>
-								<dt>ID Selector</dt>
-								<dd>Used to apply style to elements with more rare or unique purpose or structure. They override other selectors. 
-								</dd>
-								<div class="code-sample">
-									<div class="codsam-lang">
-										CSS:
-									</div>
-									<p>
-									#id-name {<br>
-									<span class="codsam-indent">
-										attribute: value;<br>
-									</span>
-									}
-									</p>
-									<div class="codsam-lang">
-										HTML Selected:
-									</div>
-									<p>				
-									&lt;div id="id-name"&gt;&lt;/div&gt;
-									</p>
-								</div>
-								<dt>Class Selector</dt>
-								<dd>Used to apply style to multiple elements with common or prevalent purposes or structure. Generally considered the most versatile and useful type of selector.
-								</dd>
-								<div class="code-sample">
-									<div class="codsam-lang">
-										CSS:
-									</div>
-									<p>
-									.class-name {<br>
-									<span class="codsam-indent">
-										attribute: value;<br>
-									</span>
-									}
-									</p>
-									<div class="codsam-lang">
-										HTML Selected:
-									</div>
-									<p>
-									&lt;div class="class-name" &gt;&lt;/div&gt;
-									</p>
-								</div>
-								<dt>Tag Selecor</dt>
-								<dd>Used to apply style to all instances of a specific type of tag.
-								</dd>
-								<div class="code-sample">
-									<div class="codsam-lang">
-										CSS:
-									</div>
-									<p>
-									tagtype {<br>
-									<span class="codsam-indent">
-										attribute: value;<br>
-									</span>
-									}
-									</p>
-									<div class="codsam-lang">
-										HTML Selected:
-									</div>
-									<p>
-									&lt;tagtype&gt;&lt;/tagtype&gt;
-									</p>
-								</div>
-								<dt>Attribute Selector<dt>
-								<dd>Used to apply style to any type of attribute with a specific value. Has the same specificity value as a class selector.
-								</dd>
-								<div class="code-sample">
-									<div class="codsam-lang">
-										CSS:
-									</div>
-									<p>
-									[attribute="value"] {<br>
-									<span class="codsam-indent">
-										attribute: value;<br>
-									</span>
-									}
-									</p>
-									<div class="codsam-lang">
-										HTML Selected:
-									</div>
-									<p>
-										&lt;div attribute="value"&gt;&lt;/div&gt;
-									</p>
-								</div>
-								<dt>Positional Selector</dt>
-								<dd>A family of selectors used to apply style to elements based on their positioning relative to other elements. Below is just one type.
-								</dd>
-								<div class="code-sample">
-									<div class="codsam-lang">
-										CSS:
-									</div>
-									<p>
-									:nth-child(3) {<br>
-									<span class="codsam-indent">
-										attribute: value;<br>
-									</span>
-									}
-									</p>
-									<div class="codsam-lang">
-										HTML Selected:
-									</div>
-									<p>
-									&lt;div&gt;<br>
-									<span class="codsam-indent">&lt;div&gt;&lt;/div&gt;<br>
-									<span class="codsam-indent">&lt;div&gt;&lt;/div&gt;<br>
-									<span class="codsam-indent">&lt;div&gt;3rd child element <span class="codsam-indent">selected&lt;/div&gt;<br>
-									&lt;/div&gt;
-									</p>
-								</div>	
-							</dl> 
-						</p> 
+						<p>Units of CSS code that define what elements of the page a particular style will be applied to. There are many different types of selectors, and they can be used in almost any combinations with each other (Major selector types below).</p>
 					</div>
 				</div>
 				<div class="concept-container">
 					<div class="concept-title">
-						Good Coding Style
+						ID Selectors
+					</div>
+					<div class="concept-explanation">
+						<p>Used to apply style to singular elements. Will override class and tag selectors.</p>
+						<div class="code-sample">
+						<div class="codsam-lang">
+							CSS:
+						</div>
+						<p>
+						#id-name {<br>
+						<span class="codsam-indent">
+							attribute: value;<br>
+						</span>
+						}
+						</p>
+						<div class="codsam-lang">
+							HTML Selected:
+						</div>
+						<p>				
+						&lt;div id="id-name"&gt;&lt;/div&gt;
+						</p>
+						</div>
+					</div>
+				</div>
+				<div class="concept-container">
+					<div class="concept-title">
+						Class Selectors
+					</div>
+					<div class="concept-explanation">
+						<p>Used to apply style to multiple elements with common purposes or structure. Generally considered the most versatile type of selector. Will override tag selectors.
+						</p>
+						<div class="code-sample">
+						<div class="codsam-lang">
+							CSS:
+						</div>
+						<p>
+						.class-name {<br>
+						<span class="codsam-indent">
+							attribute: value;<br>
+						</span>
+						}
+						</p>
+						<div class="codsam-lang">
+							HTML Selected:
+						</div>
+						<p>
+						&lt;div class="class-name" &gt;&lt;/div&gt;
+						</p>
+						</div>
+					</div>
+				</div>
+				<div class="concept-container">
+					<div class="concept-title">
+						Tag Selectors
+					</div>
+					<div class="concept-explanation">
+						<p>Used to apply style to all instances of a specific type of tag.</p>
+						<div class="code-sample">
+						<div class="codsam-lang">
+							CSS:
+						</div>
+						<p>
+						tagtype {<br>
+						<span class="codsam-indent">
+							attribute: value;<br>
+						</span>
+						}
+						</p>
+						<div class="codsam-lang">
+							HTML Selected:
+						</div>
+						<p>
+						&lt;tagtype&gt;&lt;/tagtype&gt;
+						</p>
+						</div>
+					</div>
+				</div>
+				<div class="concept-container">
+					<div class="concept-title">
+						Attribute Selectors
+					</div>
+					<div class="concept-explanation">
+						<p>Used to apply style to any type of attribute with a specific value. Has the same specificity value as a class selector.</p>
+						<div class="code-sample">
+						<div class="codsam-lang">
+							CSS:
+						</div>
+						<p>
+						[attribute="value"] {<br>
+						<span class="codsam-indent">
+							attribute: value;<br>
+						</span>
+						}
+						</p>
+						<div class="codsam-lang">
+							HTML Selected:
+						</div>
+						<p>
+							&lt;div attribute="value"&gt;&lt;/div&gt;
+						</p>
+						</div>
+					</div>
+				</div>
+				<div class="concept-container">
+					<div class="concept-title">
+						Positional Selectors
+					</div>
+					<div class="concept-explanation">
+						<p>A family of selectors used to apply style to elements based on their positioning relative to other elements. Below is just one type.</p>
+						<div class="code-sample">
+						<div class="codsam-lang">
+							CSS:
+						</div>
+						<p>
+						:nth-child(3) {<br>
+						<span class="codsam-indent">
+							attribute: value;<br>
+						</span>
+						}
+						</p>
+						<div class="codsam-lang">
+							HTML Selected:
+						</div>
+						<p>
+						&lt;div&gt;<br>
+						<span class="codsam-indent">
+							&lt;div&gt;&lt;/div&gt;<br>
+						</span>
+						<span class="codsam-indent">
+							&lt;div&gt;&lt;/div&gt;<br>
+						</span>
+						<span class="codsam-indent">
+							&lt;div&gt;3rd child element 
+						</span>
+						<span class="codsam-indent">selected&lt;/div&gt;<br>
+						</span>
+						&lt;/div&gt;
+						</p>
+						</div>	
+					</div>
+				</div>
+				<div class="concept-container">
+					<div class="concept-title">
+						Specificity
 					</div>
 					<div class="concept-explanation">
 						<p>
-							Is essential to all programming languages and types of programming because it
-							<ul>
-								<li>Increases the efficienty with which one can code.</li>
-								<li>Makes code easier for others to read and understand.</li>
-								<li>Is more conducive to standardization within teams.</li>
-								<li>Is more visually appealing and impressive to potential employers and clients.</li>
-							</ul>
+							The way in which browsers decide which property values should be applied to any given elements. Each selector type has a specificity value, and when combined with other selectors, their weights are combined (the values are not actually added like decimal numbers!). The property values with higher combined specifity override those with lower. 
 						</p>
 					</div>
 				</div>
@@ -439,22 +464,30 @@
 						Coding Style Tips
 					</div>
 					<div class="concept-explanation">
-						<p>
-							<ul>
-								<li>Add one indent in front of an element for each level that it is nested within other elements.</li>
-								<li>Keep all code within the right side margin of the text editor to prevent the need for horizontal scrolling.</li>
-								<li>Include comments to indicate where elements which contain many other elements end.</li>
-							</ul>
-						</p>
+						<ul>
+							<li>(HTML) Add one indent in front of an element for each level that it is nested within other elements.</li>
+							<li>Keep all code within the right side margin of the text editor to prevent the need for horizontal scrolling.</li>
+							<li>Include comments to help organize and navigate the code. For example, comments which catch a reader's attention ("flags") and describe the purpose of the code beneath them can be placed at the top of each major section of a stylesheet.</li>
+							<li>(CSS) Organize "modules" of code based on the relationship of the element(s) that it effects with the parent, siblings, and children of that element, and similar element types and classes.</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div><!--end first row of three lessons container-->
 	</div><!--end all-lessons container-->
 
-	<div id="footer">
-			<a href="#top"><img src="images/compassroselight.png" alt="Compass Logo" title="Back to Top" width="60" height="60" /></a>
-			<span><a href="https://plus.google.com/u/0/108193990331594746787/about/p/pub" title="My G+ Page">Matt Smith</a></span>
+	<div class="footer">
+		<a id="btt" href="#top">
+			<img src="images/compassroselight.png" alt="Compass Logo" title="Back to Top" width="60" height="60" />
+		</a>
+		<a id="valid" title="W3C CSS Validated" href="http://jigsaw.w3.org/css-validator/check/referer">
+    		<img style="border:0;width:88px;height:31px"
+        	src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        	alt="Valid CSS!" />
+    	</a>
+    	<a id="me" href="https://plus.google.com/u/0/108193990331594746787/about/p/pub" title="My G+ Page">
+			Matt Smith
+		</a>
 	</div>
 
 </body>
