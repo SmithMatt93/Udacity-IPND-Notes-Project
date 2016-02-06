@@ -3,6 +3,7 @@ simplified css specificity hierarchy
 inline > id > class, attribute > tag 
 */
 
+/* Import Meyer's CSS Reset */
 @import url("reset.css");
 
 /* Universal Selector */
@@ -33,7 +34,7 @@ h2 {
 	font-weight: bold;
 	font-size: 1.4em;
 	color: #dddddd;
-	padding-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 p {
@@ -75,8 +76,6 @@ a {
 a:hover {
 	color: #ff6600;
 }
-
-
 
 /* Organized by Page Location
  and Descending DOM Structure */
@@ -131,6 +130,7 @@ a:hover {
 	text-align: left;
 	padding-left: 10px;
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #toc ul {
@@ -155,6 +155,28 @@ a:hover {
 		color: #ff3300;
 	}
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+	.tooltip .tooltiptext {
+	    visibility: hidden;
+	    width: 160px;
+	    background-color: #222222;
+	    color: #000000;
+	    font-family: gadugi;
+	    text-align: center;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    border-radius: 20px;
+	    position: absolute;
+	    z-index: 10;
+	}
+
+	.tooltip:hover .tooltiptext {
+	    visibility: visible;
+	}
 
 .all-lessons {
 	display: flex;
